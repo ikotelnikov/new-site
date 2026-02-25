@@ -243,6 +243,10 @@ h2 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.cards {
+  align-items: start;
+}
+
 article {
   padding: 18px;
   border-radius: 16px;
@@ -256,6 +260,21 @@ article img {
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 12px;
+}
+
+.venue-card {
+  overflow: hidden;
+}
+
+.venue-image {
+  display: block;
+  width: 100%;
+  height: 220px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  position: static;
 }
 
 article h3 {
